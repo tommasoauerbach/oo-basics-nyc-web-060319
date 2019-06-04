@@ -13,13 +13,8 @@ attr_accessor :color, :size, :material, :condition
 
 
 def cobble
+  @condition = "new"
   puts "Your shoe is as good as new!"
 end
-
-def shoe_condition
-  if cobble do
-    puts "new"
-    
-  end
 
   end
